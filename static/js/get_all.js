@@ -1,7 +1,7 @@
 function getAll() {
     var request = new XMLHttpRequest();
-    request.open('GET', 'https://8000-axelcarrill-iotbackwowk-upei094zfbm.ws-us106.gitpod.io/dispositivos');
-    // request.open('GET', 'https://api-contactos-91f205878f2d.herokuapp.com/contactos');
+    request.open('GET', 'https://iot-back-wokwi-386e3df571f2.herokuapp.com/dispositivos');
+    // request.open('GET', 'https://8000-axelcarrill-iotbackwowk-upei094zfbm.ws-us106.gitpod.io/dispositivos');
     request.send();
 
     request.onload = (e) => {
